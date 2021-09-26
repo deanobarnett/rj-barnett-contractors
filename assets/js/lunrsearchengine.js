@@ -1,37 +1,37 @@
 
 var documents = [{
     "id": 0,
-    "url": "rj-barnett-contractors/404.html",
+    "url": "/rj-barnett-contractors/404.html",
     "title": "404",
     "body": "404 Page does not exist!Please use the search bar at the top or visit our homepage! "
     }, {
     "id": 1,
-    "url": "rj-barnett-contractors/about",
+    "url": "/rj-barnett-contractors/about",
     "title": "Mediumish Template for Jekyll",
     "body": " Documentation: Please, read the docs here. Questions or bug reports?: Head over to our Github repository! "
     }, {
     "id": 2,
-    "url": "rj-barnett-contractors/categories",
+    "url": "/rj-barnett-contractors/categories",
     "title": "Categories",
     "body": ""
     }, {
     "id": 3,
-    "url": "rj-barnett-contractors/",
+    "url": "/rj-barnett-contractors/",
     "title": "Home",
     "body": "      Recent:                                                                                                     John Deere 6910 (1997)      :       Photos takin this week New 650 front tyres New knives and blower paddles Runs. . . &lt;/h4&gt;    &lt;/div&gt;                  25 Sep 2021                    &lt;/div&gt;&lt;/div&gt;                                                                                                Ford Ranger (2016)      :       Hard to find like this limited with full black leather in blue Fully dechromed. . . &lt;/h4&gt;    &lt;/div&gt;                  25 Sep 2021                    &lt;/div&gt;&lt;/div&gt;      &lt;/div&gt;&lt;/section&gt;  : : "
     }, {
     "id": 4,
-    "url": "rj-barnett-contractors/robots.txt",
+    "url": "/rj-barnett-contractors/robots.txt",
     "title": "",
     "body": "      Sitemap: {{ “sitemap. xml”   absolute_url }}   "
     }, {
     "id": 5,
-    "url": "rj-barnett-contractors/john-deere-6910/",
+    "url": "/rj-barnett-contractors/john-deere-6910/",
     "title": "John Deere 6910",
     "body": "2021/09/25 -  Photos takin this week New 650 front tyres New knives and blower paddles Runs very smoothly lively machine 630a header In excellent contdition Just in outa uk Hard to find in this condition and money Very cheap machine loads new bits Can be left ready 4 2022 season still lifting this week if need c running or require a video of it Same as Claas and krone"
     }, {
     "id": 6,
-    "url": "rj-barnett-contractors/2016-ford-ranger/",
+    "url": "/rj-barnett-contractors/2016-ford-ranger/",
     "title": "Ford Ranger",
     "body": "2021/09/25 -  Hard to find like this limited with full black leather in blue Fully dechromed 3. 2 6 speed automatic Sat nav Parking sensors Reverse camera Dab Bluetooth radio New 20” Ava wheels and new off-road tyres Fully kitted Not many like this about Front and rear bars Roll over cover Has to be seen"
     }];
