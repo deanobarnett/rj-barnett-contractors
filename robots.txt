@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: /rj-barnett-contractors/sitemap.xml
