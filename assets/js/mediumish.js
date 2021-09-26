@@ -110,7 +110,9 @@ jQuery(document).ready(function($){
      $(document).on('click', '.spoiler', function() {
         $(this).removeClass('spoiler');
      });
-    
+
+  $('.carousel-item:first').addClass('active')
+  $('.carousel-indicators li:first').addClass('active')
  });   
 
 // deferred style loading
