@@ -4,7 +4,7 @@ title: "R.J. Barnett Contractors"
 description: "Agricultural Contracting and Sales"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
-baseurl: ''
+baseurl: "/rj-barnett-contractors"
 include:
   - '_pages'
 permalink: /:title/
