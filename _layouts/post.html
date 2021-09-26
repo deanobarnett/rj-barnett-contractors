@@ -26,7 +26,7 @@ post_class: post-template
 
             <!-- carousel -->
             {% if page.images %}
-            <div id="photo-reel" class="carousel slide" data-interval=false>
+            <div id="photo-reel" class="carousel slide mb-4" data-interval=false>
               <ol class="carousel-indicators">
                 {% assign numImages = page.images.size | minus: 1 %}
                 {% for i in (0..numImages) %}
