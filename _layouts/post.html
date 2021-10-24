@@ -36,7 +36,7 @@ post_class: post-template
               <div class="carousel-inner">
                 {% for image in page.images %}
                 <div class="carousel-item">
-                  <img class="d-block w-100" src="{{ site.baseurl }}/{{ image }}">
+                  <img class="d-block w-100" src="{% if image contains "://" %}{{ image }}{% else %}{{ site.baseurl }}/{{ image }}{% endif %}">
                 </div>
                 {% endfor %}
               </div>
