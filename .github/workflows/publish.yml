@@ -20,11 +20,8 @@ jobs:
       - name: 🔨 install dependencies & build site
         uses: limjh16/jekyll-action-ts@v2
         with:
-          enable_cache: true
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: ${{ runner.os }}-gems-
-          # jekyll_src: sample_site
-          # gem_src: sample_site
 
       - name: 🚀 deploy
         uses: peaceiris/actions-gh-pages@v3
