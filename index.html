@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-<iframe 
+<iframe
     src="https://www.facebook.com/plugins/page.php?href=https://www.facebook.com/RJBarnettAgriContractors/&tabs=timeline&width=500&height=600&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
     width="500" 
     height="600" 
@@ -13,35 +13,3 @@ title: Home
     allowfullscreen="true" 
     allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
 </iframe>
-
-
-<!-- Posts Index
-================================================== -->
-<section class="recent-posts">
-
-    <div class="section-title">
-        <h2><span>Recent</span></h2>
-    </div>
-
-    <div class="row listrecent">
-
-        {% for post in paginator.posts %}
-
-        {% include postbox.html %}
-
-        {% endfor %}
-
-    </div>
-
-</section>
-
-
-<!-- Pagination
-================================================== -->
-<div class="bottompagination">
-<div class="pointerup"><i class="fa fa-caret-up"></i></div>
-<span class="navigation" role="navigation">
-    {% include pagination.html %}
-</span>
-</div>
-
